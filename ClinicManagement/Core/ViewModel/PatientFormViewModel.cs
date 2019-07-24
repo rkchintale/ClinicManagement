@@ -17,6 +17,7 @@ namespace ClinicManagement.Core.ViewModel
         public string Name { get; set; }
 
         public Gender Sex { get; set; }
+
         [Required]
         [ValidDate]
         public string BirthDate { get; set; }

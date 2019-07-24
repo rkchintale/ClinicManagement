@@ -17,7 +17,7 @@ namespace ClinicManagement.Persistence
 
 
         public ApplicationDbContext()
-            : base("ConStr", throwIfV1Schema: false)
+            : base("ClinicManagement", throwIfV1Schema: false)
         {
         }
 
